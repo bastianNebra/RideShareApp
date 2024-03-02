@@ -17,7 +17,7 @@ class DriverController extends Controller
         return $request->user;
 
     }
-
+ 
     public function update(Request $request){
         $request->validate(
             [
